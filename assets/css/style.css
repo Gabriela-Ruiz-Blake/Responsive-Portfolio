@@ -1,0 +1,145 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
+    font-size: 18px;
+    line-height: 150%;
+    color:#777777;
+    background: #fff;
+  }
+  
+  header{
+    width: 100%;
+    display: block;
+    position: fixed;
+    top:0;
+    height: 100px; 
+    z-index: 4;
+    background: #fff;
+  }
+  h2 {
+    font-size: 24px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+  }
+  
+  h1 {
+    padding: 20px;
+    margin-left: 100px;
+    margin-top: 0;
+    height: 60px;
+    top:0;
+    color:#ffffff;
+    background: #4aaaa5;
+    float: left;
+    border:#cccccc;
+    position: fixed;
+    z-index: 5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+  }
+  #navbar{
+    position: fixed;
+    right:0;
+    width:300px;
+    z-index: 5;
+  }
+  .navbar1{
+    position:absolute;
+    width:33%;
+    left:0;
+    background: #fff;
+  }
+  .navbar2{
+    position: absolute;
+    width:33%;
+    left: 33%;
+    background: #fff;
+  }
+  .navbar3{
+    position:absolute;
+    width:33%;
+    right:0;
+    background: #fff;
+  }
+  #bigbox{
+    padding: 100px;
+    background: #eee;
+    float: center;
+    left:0;
+    right:0;
+    height: 900px;
+    position: relative;
+    top: 100px;
+    z-index: 1;
+  }
+  #central-box {
+    padding: 100px;
+    margin: 20px;
+    background: #ffffff;
+    border: #dddddd; 
+    left:30px;
+    right: 20px;
+    width: 960px;
+    height: 700px;
+    position: absolute;
+    z-index: 2;
+    
+  }
+  #profile-pic{
+    position: absolute;
+    top:200px;
+    left:100px;
+    z-index: 3;
+    width: 200px;
+  }
+  #bio{
+    position: absolute;
+    top:200px;
+    right:100px;
+    width: 700px;
+    z-index: 3;
+  }
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    background: #dddddd;
+    border-top: 8px solid #4aaaa5;
+    z-index: 4;
+    font-size: 10;
+  }
+  #footer-img{
+    position: absolute;
+    bottom:0;
+  }
+  input{
+    width: 100%;
+  }
+  #message{
+    height: 100px;
+  }
+
+  img{
+    margin:10px;
+    width: 300px;
+  }
+  .left .right{
+    float: left;
+  }
+
+  .gallery{
+    display: flex;
+  }
+
+  h3 {
+    font-size: 16px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background: #4aaaa5;
+    color: #fff;
+    width: 300px;
+    position: relative;
+    top: -70px;
+    left: 10px;
+  
+  }
